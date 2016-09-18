@@ -1,0 +1,9 @@
+uan2k-presi:
+  image: nbrown/revealjs
+  ports:
+    - '8000:8000'
+  volumes:
+    - ./index.html:/reveal.js/index.html:rw
+    - ./media:/reveal.js/media:ro
+    - ./lm-course-theme.css:/reveal.js/css/theme/lm-course-theme.css:rw
+    - ./lm-course-theme.scss:/reveal.js/css/theme/source/lm-course-theme.scss:rw
