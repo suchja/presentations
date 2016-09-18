@@ -17,10 +17,10 @@
 
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: #fff;
+$backgroundColor: #00A8C6;
 
-$mainColor: #222;
-$headingColor: #222;
+$mainColor: #F9F2E7;
+$headingColor: #F9F2E7;
 
 $mainFontSize: 38px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
@@ -29,7 +29,7 @@ $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
 $headingFontWeight: 600;
-$linkColor: #2a76dd;
+$linkColor: #FFCD00;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
@@ -40,7 +40,7 @@ $heading4Size: 1.0em;
 
 section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		color: #F9F2E7;
 	}
 }
 
