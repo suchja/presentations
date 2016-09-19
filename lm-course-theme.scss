@@ -14,7 +14,7 @@
 
 // Include theme-specific fonts
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
-
+@import url(https://fonts.googleapis.com/css?family=Lato|Volkhov);
 
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #00A8C6;
@@ -23,12 +23,12 @@ $mainColor: #F9F2E7;
 $headingColor: #F9F2E7;
 
 $mainFontSize: 38px;
-$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$mainFont: 'Lato', sans-serif;
+$headingFont: 'Volkhov', serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
-$headingFontWeight: 600;
+$headingTextTransform: normal;
+$headingFontWeight: 500;
 $linkColor: #FFCD00;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
@@ -44,6 +44,12 @@ section.has-dark-background {
 	}
 }
 
+.reveal section img.logo {
+    @extend img.plain;
+    max-width: 15%;
+    max-height: 15%;
+    background-color: rgba(255, 255, 255, 0);
+}
 
 // Theme template ------------------------------
 @import "../template/theme";
